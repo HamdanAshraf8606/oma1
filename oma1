@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Olympic Martial Arts Academy</title>
+    <!-- PC View Styles -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+
+        .pc-view {
+            display: block;
+        }
+
+        .mobile-view {
+            display: none;
+        }
+
+        .pc-header {
+            position: relative;
+            background-image: url('indoor_oma.jpg');
+            background-size: cover;
+            background-position: center;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            height: 300px; /* Adjust the height as needed */
+        }
+
+        .header-text {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: black; /* Change text color to black */
+        }
+
+        .affiliation {
+            font-size: 14px;
+        }
+
+        nav {
+            background-color: #1a1a1a;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 10px;
+            margin: 0 5px;
+        }
+
+        section {
+            padding: 20px;
+            background-color: white;
+            margin: 20px;
+        }
+
+        .content img {
+            width: 200px;
+            margin: 10px;
+            float: left;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+    <!-- Mobile View Styles -->
+    <style>
+        @media only screen and (max-width: 600px) {
+            .pc-view {
+                display: none;
+            }
+
+            .mobile-view {
+                display: block;
+            }
+
+            header {
+                position: relative;
+                background-image: url('indoor_oma.jpg');
+                background-size: cover;
+                background-position: center;
+                color: white;
+                padding: 20px;
+                text-align: center;
+                height: 200px; /* Adjust the height as needed */
+            }
+
+            .header-text {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                color: black; /* Change text color to black */
+            }
+
+            .affiliation {
+                font-size: 14px;
+            }
+
+            nav {
+                background-color: #1a1a1a;
+                color: white;
+                padding: 10px;
+                text-align: center;
+            }
+
+            nav a {
+                color: white;
+                text-decoration: none;
+                padding: 10px;
+                margin: 0 5px;
+            }
+
+            section {
+                padding: 20px;
+                background-color: white;
+                margin: 20px;
+            }
+
+            .content img {
+                width: 100%;
+                margin: 10px auto;
+                display: block;
+                border-radius: 10px;
+                box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- PC View -->
+    <div class="pc-view">
+        <header class="pc-header">
+            <div class="header-text">
+                <h1>Olympic Martial Arts Academy</h1>
+                <p class="affiliation">Affiliated to JSKA India</p>
+            </div>
+        </header>
+    </div>
+
+    <!-- Mobile View -->
+    <div class="mobile-view">
+        <header>
+            <div class="header-text">
+                <h1>Olympic Martial Arts Academy</h1>
+                <p class="affiliation">Affiliated to JSKA India</p>
+            </div>
+        </header>
+    </div>
+
+    <nav>
+        <a href="#about">About</a>
+        <a href="#instructors">Instructors</a>
+        <a href="#programs">Programs</a>
+        <a href="#facilities">Facilities</a>
+        <a href="#contact">Contact</a>
+        <a href="admission_form.html" target="_blank">Admission Form</a>
+    </nav>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <div class="content">
+            <img src="jska_logo.jpg" alt="JSKA Logo">
+            <img src="class_image1.jpg" alt="Class Image 1">
+            <p>Welcome to Olympic Martial Arts Academy (OMA), a premier martial arts training facility dedicated to nurturing the physical and mental well-being of our students. With a focus on traditional karate, we provide comprehensive instruction in the rich traditions and techniques of this ancient martial art.</p>
+            <p>In addition to martial arts training, we also offer access to a small gym within our academy. Our gym facilities include cardio equipment, free weights, and strength training machines, providing our members with the opportunity to enhance their overall fitness and conditioning.</p>
+            <p>At OMA, our mission is to empower individuals of all ages and backgrounds through the practice of martial arts and fitness training. We believe in fostering discipline, respect, and confidence, both on and off the mat. Our experienced instructors, led by Mohammed Ashraf, are committed to guiding each student on their journey towards self-improvement and personal growth.</p>
+            <p>What sets OMA apart is our unwavering commitment to excellence. Our classes are designed to challenge and inspire students to reach their full potential, whether they are beginners or seasoned practitioners. With a supportive community and a focus on continuous learning, OMA provides a dynamic and enriching environment for martial artists and fitness enthusiasts alike.</p>
+            <img src="class_image2.jpg" alt="Class Image 2">
+            <img src="class_image3.jpg" alt="Class Image 3">
+        </div>
+    </section>
+
+    <section id="instructors">
+        <h2>Instructors</h2>
+        <div class="content">
+            <img src="class_image4.jpg" alt="Class Image 4">
+            <p>At Olympic Martial Arts Academy, our instructors are highly skilled and experienced martial artists who are dedicated to helping students achieve their goals. Led by Mohammed Ashraf, our team of instructors is committed to providing top-notch training in traditional karate.</p>
+            <img src="class_image5.jpg" alt="Class Image 5">
+            <p>Mohammed Ashraf Sensei has over 20 years of experience in martial arts and holds black belt ranks in multiple disciplines. His passion for teaching and his deep understanding of martial arts philosophy make him an invaluable mentor to our students.</p>
+            <p>In addition to Mohammed Ashraf Sensei, our academy is proud to have a team of assistant instructors who are equally passionate about sharing their knowledge and expertise with our students. Together, our instructors create a supportive and encouraging learning environment where students can thrive and grow.</p>
+        </div>
+    </section>
+
+    <section id="programs">
+        <h2>Programs</h2>
+        <div class="content">
+            <img src="class_image6.jpg" alt="Class Image 6">
+            <p>Our academy offers a variety of programs to cater to students of all ages and skill levels. Whether you're a complete beginner or an experienced martial artist, we have a program that's right for you.</p>
+        </div>
+    </section>
+
+    <section id="facilities">
+        <h2>Facilities</h2>
+        <div class="content">
+            <img src="class_image7.jpg" alt="Class Image 7">
+            <p>Our academy is equipped with state-of-the-art facilities to ensure that our students have the best possible training experience. From our spacious training area to our well-equipped gym, we have everything you need to achieve your martial arts and fitness goals.</p>
+            <p>Our facilities include:</p>
+            <ul>
+                <li>Large Training Mat</li>
+                <li>Training Equipment (Punching Bags, Mats, etc.)</li>
+                <li>Comfortable Waiting Area for Parents and Visitors</li>
+            </ul>
+            <img src="class_image8.jpg" alt="Class Image 8">
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>To inquire about our classes or for any other queries, please contact us at:</p>
+        <p>Phone: <a href="tel:9895226622">9895226622</a></p>
+        <p>Email: <a href="mailto:ashrafdsq@gmail.com">ashrafdsq@gmail.com</a></p>
+        <p>Address: Dhruv Arcade, Opposite Citroen, Puthiyangadi, Kozhikode</p>
+    </section>
+</body>
+
+</html>
